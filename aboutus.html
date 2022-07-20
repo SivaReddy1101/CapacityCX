@@ -1,37 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>CapacityCX | AboutUS</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        li{
+            display: inline-block;
+            
+        }
+        #row{
+            width: 100%;
+        }
+        #col1{
+            width: 30%;
+        }
+        #col2{
+            width: 40%;
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
+        #col3{
+            width: 30%;
+            margin-top: 3%;
+        }
+        .row-list-items{
+            width: 86%;
+        }
+        .row-li-items{
+            padding-right: 5%;
+        }
+        #content
+        {
+            text-align: justify;
+            color: white;
+        }
+        #footer{
+            padding-top: 1%;
+        }
+        #footer-ptag{
+            padding-top: 2%;
+            padding-bottom: 2%
+        }
+    </style>
 </head>
 <body>
-    <!-- Menu Section -->
-    <h2><a href="index.html">Capacity CX</a></h2>
-    <ul style="list-style-type:none;">
-        <li>Platfrom</li>
-        <li>Use cases</li>
-        <li>Customers</li>
-        <li>Resources</li>
-        <li>Company</li>
-    </ul>
-    <ul style="list-style-type:none;">
-    <li><a href="login.html">Log In<a></li>
-    <li><a href="signup.html">Sign Up<a></li>
-    <li><a href="feedback.html">Feedback<a></li>
-    <li><a href="aboutus.html">AboutUS<a></li>
-    </ul>
-    <hr />
-    <!-- Content Section -->
-    <h1>At Capacity, we help teams do their best work.</h1>
-    <p>Employees are overwhelmed, overloaded, and unengaged. We’re here to help.</p>
-    <h2>Teams are overwhelmed by questions, repetitive tasks, and navigating multiple systems.</h2>
-    <p>This is where we come in. Capacity is an AI-powered support automation platform that connects your entire tech stack to answer questions, automate repetitive support tasks, and build solutions to any business challenge.</p>
-    <h2>What does that mean?</h2>
-    <p>Organizations turn to Capacity to drive the next generation of self-service by reducing the time spent searching for information, answering repetitive questions, and completing tedious tasks.</p>     
-    <h2>Here’s how.</h2>
-    <p>Capacity provides everything you need to automate support and business processes in one powerful platform.</p>
-      <!-- Footer Section -->
-	<hr width="50%"/>
-    <p align="center"> &copy; Copy rights belonging https://www.capacitycx.org</p>
-<!-- Footer End -->
+    <div id="outerdiv" style="background-image:url('images/backround1.jpg');background-size: cover;">
+        <div id="header" style="background-color:#2D6390 ;width:100%;overflow:hidden">
+            <div id="navbar" style="float:none;">
+                <div id="row" style="float:left;">
+                    <div id="col1" style="float:left;">
+                        <a href="index.html"><img src="images/logo3.png" alt="" width="50%"></a>
+                    </div>
+                    <div id="col2" style="float:left;">
+                        <ul class="row-list-items" style="list-style-type:none;">
+                            <li class="row-li-items"><a href="index.html">Home</a></li>
+                            <li class="row-li-items"><a href="studtyabroad.html">Study Abroad</a></li>
+                            <li class="row-li-items"><a href="aboutus.html">AboutUS</a></li>
+                            <li class="row-li-items"><a href="contactus.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div id="col3" style="float:left;">
+                        <ul class="row-list-items" style="list-style-type:none;">
+                            <li class="row-li-items"><a href="login.html">Log In</a></li>
+                            <li class="row-li-items"><a href="signup.html">Sign Up</a></li>
+                            <li class="row-li-items"><a href="feedback.html">Feedback</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <h1>At Capacity, we help teams do their best work.</h1>
+            <p>Employees are overwhelmed, overloaded, and unengaged. We’re here to help.</p>
+            <h2>Teams are overwhelmed by questions, repetitive tasks, and navigating multiple systems.</h2>
+            <p>This is where we come in. Capacity is an AI-powered support automation platform that connects your entire tech stack to answer questions, automate repetitive support tasks, and build solutions to any business challenge.</p>
+            <h2>What does that mean?</h2>
+            <p>Organizations turn to Capacity to drive the next generation of self-service by reducing the time spent searching for information, answering repetitive questions, and completing tedious tasks.</p>     
+            <h2>Here’s how.</h2>
+            <p>Capacity provides everything you need to automate support and business processes in one powerful platform.</p>
+            <h2>Culture.</h2>
+            <p>We treat people as adults with the freedom and responsibility that comes from a place of maturity. We value a fun and supportive environment, and we celebrate all successes along the way.</p>
+            <p>For a peek into our culture, we have Slack channels dedicated to the appreciation of sandwiches and bad jokes. Teammates are encouraged to wear slippers in the office because we believe you should be as comfortable at work as you are at home.</p>
+            <h2>Join Our Team</h2>
+            <p>Join the startup that’s bringing the future of work to the here and now. If you’re a high achievement individual with a distinctively low ego, you’ll fit right in. </p>
+            <img src="images/code1.jpg" alt="" width="35%">
+            <img src="images/code2.jpg" alt="" width="35%">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eGE-tFalwpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="footer" width="100%" height="20%">
+            <hr width="50%"/>
+            <p align="center" id="footer-ptag"> &copy; Copy rights belonging https://www.capacitycx.org</p>
+        </div>
+    </div>
 </body>
 </html>
